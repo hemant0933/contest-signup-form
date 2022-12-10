@@ -18,7 +18,7 @@ body{
     height: 600px;
     color: white;
     margin-top: 100px;
-    border: 2px white solid;
+    /* border: 2px white solid; */
 }
 
 header>h1{
@@ -99,6 +99,35 @@ button{
     width: 140px;
     height: 40px;
     font-size: 15px;
+}
+#selection{
+    margin-bottom: 20px;
+    
+}
+@media screen and (min-width: 320px) and (max-width: 800px){
+    body{
+        overflow: hidden;
+
+    }
+    #signup{
+        font-size: 60px;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    form{
+        display: block;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 20px;
+    }
+    .form_field{
+        width: 30rem;
+    }
+    button{
+       position: relative; 
+       margin-left:190px ;
+       margin-top: 20px;
+    }
 }
 
 
